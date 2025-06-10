@@ -1,0 +1,213 @@
+/* img {
+   display: block;
+   margin: auto; 
+} */
+div {
+    display: flex;
+}
+* {
+  color: black;
+  padding: 0px;
+  /* border: none; */
+}
+button {
+  font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 28px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dropdown button{
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 100%;
+}
+
+.dropdown button:hover{
+  background-color: grey;
+  color: black;
+}
+
+.dropdown a{
+  display: block;
+  color: black;
+  padding: 10px 15px;
+  top: 100%;
+  left: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown a:hover{
+  background-color: grey;
+  color: black;
+}
+
+.dropdown .content{
+  margin-left: 15px;
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.searchbar [type=text]{
+  height: 48px;
+  border-radius: 12px;
+}
+
+
+input{
+  font-family: 'Montserrat', sans-serif;
+  width: 394px;
+  height: 64px;
+  cursor: text;
+  border: none;
+  padding-right: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login button{
+  border-radius: 12px;
+  border-color: black;
+  border-width: 2px;
+  width: 112px;
+  height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 256px;
+  cursor: pointer;
+}
+
+.select_wallet button{
+  border-radius: 12px;
+  width: 175px;
+  height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+* {
+  color: black;
+  padding: 0px;
+}
+
+
+.Text {
+  width: 420px;
+}
+
+.a1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.a2 {
+  font-family: 'Montserrat', sans-serif;
+  width: 320px;
+  font-size: 1rem;
+}
+
+.display_1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.display_2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.display_3{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.get_started button {
+  border-radius: 12px;
+  width: 175px;
+  height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.learn_more button {
+  border-radius: 12px;
+  border-color: black;
+  border-width: 2px;
+  width: 112px;
+  height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.image {
+  width: 590px;
+  height: 590px;
+  border-radius: 12px;
+}
+
+.b1{
+  background-color: rgb(192, 183, 183);
+  border-radius: 12px;
+  height: 10px;
+  width: 150px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.b2{
+  background-color: black;
+  border-radius: 12px;
+  height: 10px;
+  width: 112.5px;
+}
