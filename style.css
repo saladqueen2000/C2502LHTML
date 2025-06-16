@@ -48,19 +48,18 @@ header {
 }
 
 .dropdown button{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: black;
   font-family: 'Montserrat', sans-serif;
   border: none;
   cursor: pointer;
   padding: 14px 16px;
   padding-top: 26px;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-right: 26px;
   font-size: 100%;
   background: url(IMG/chevronright.png);
   background-repeat: no-repeat;
-  background-position: 70px 23px;
+  background-position: left 100% bottom 30%;
 }
 
 .dropdown button:hover{
@@ -219,8 +218,11 @@ input:focus {
 }
 
 .feature-container {
+  font-family: 'Montserrat', sans-serif;
   justify-content: space-evenly;
   margin-top: 6rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .feature-container button {
@@ -259,11 +261,12 @@ input:focus {
 
 .item{
   /* flex: 1 0 21%; */
+  font-family: 'Montserrat', sans-serif;
   flex-direction: column;
   padding: 20px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgb(223, 226, 226);
+  border-color: rgb(191, 197, 197);
   border-radius: 12px;
 }
 
@@ -306,17 +309,21 @@ input:focus {
   border-style: solid;
   margin-bottom: 30px;
   border-width: 1px;
-  border-color: rgb(223, 226, 226);
+  border-color: rgb(191, 197, 197);
   border-radius: 12px;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 .Platform {
   flex-direction: column;
+  padding: 30px;
+  border-right: 1px solid;
+  border-color: rgb(191, 197, 197);
 }
 
 .Platform p {
   height: 10px;
+  
 }
 
 .Note {
@@ -324,6 +331,7 @@ input:focus {
   width: 436px;
   height: 215px;
   padding-left: 60px;
+  padding-top: 30px;
 }
 
 .Platform-Note{
@@ -343,6 +351,8 @@ input:focus {
 }
 .media {
   justify-content: end;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 .footnote {
   font-size: 80%;
@@ -352,4 +362,5 @@ input:focus {
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 1rem;
+  text-decoration: none;
 }
